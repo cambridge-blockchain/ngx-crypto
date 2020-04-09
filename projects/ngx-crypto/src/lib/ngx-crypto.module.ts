@@ -1,4 +1,5 @@
 import { NgModule } from "@angular/core";
+import { CBCWebCrypto } from "@cambridge-blockchain/crypto-lib";
 
 @NgModule({
   declarations: [],
