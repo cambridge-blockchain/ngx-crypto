@@ -13,7 +13,34 @@ Import the crypto service as follows
 
     import { NgxCryptoService } from "@cambridge-blockchain/ngx-crypto";
 
-Example use
+## NgxCryptoService Function Signatures
+
+```typescript
+  publicKeyBase64(): Observable<string>
+
+  async encryptAttribute(
+    attributeValue: ArrayBuffer,
+    encSymKey: string
+  ): Promise<EncryptedData>
+
+  async decryptAttribute(
+    encAttributeValue: ArrayBuffer,
+    encSymKey: string,
+    iv: Uint8Array
+  ): Promise<ArrayBuffer>
+
+  async decryptStringAttribute(
+    encAttributeValue: string,
+    encSymKey: string,
+    iv: Uint8Array
+  ): Promise<ArrayBuffer>
+
+  async computeHash(attributeValue: ArrayBuffer): Promise<Hash>
+
+  async verifyHash(hash: Hash, attributeValue: ArrayBuffer): Promise<boolean>
+```
+
+## Example Use
 
 ```typescript
 import { Component, OnInit } from "@angular/core";
