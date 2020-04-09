@@ -1,4 +1,6 @@
-# Ngx Crypto Library
+# Ngx Crypto Service
+
+[![npm version](https://badge.fury.io/js/%40cambridge-blockchain%2Fngx-crypto.svg)](https://badge.fury.io/js/%40cambridge-blockchain%2Fngx-crypto)
 
 ## Getting Started
 

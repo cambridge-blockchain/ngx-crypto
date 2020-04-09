@@ -13,11 +13,11 @@ For the ngx-crypto angular service see
     $ VERSION=$(npm version minor)     # X.Y+1.Z
     $ VERSION=$(npm version patch)     # X.Y.Z+1
 
-    $ git add . && git commit -m ""
+    $ git add . && git commit -m "${VERSION}"
 
     $ git tag -s ${VERSION} -m ""
 
-    $ git push
+    $ git push && git push --tags
 
 Go to https://github.com/cambridge-blockchain/ngx-crypto/releases
 and create a release for the newly created tag \${VERSION}. This
