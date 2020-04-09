@@ -1,0 +1,23 @@
+{
+  "name": "@cambridge-blockchain/ngx-crypto",
+  "version": "0.0.1",
+  "author": "Cambridge Blockchain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cambridge-blockchain/ngx-crypto/issues"
+  },
+  "homepage": "https://github.com/cambridge-blockchain/ngx-crypto#readme",
+  "keywords": [
+    "crypto",
+    "angular",
+    "typescript",
+    "javascript",
+    "service"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^9.0.7",
+    "@angular/core": "^9.0.7",
+    "tslib": "^1.10.0",
+    "@cambridge-blockchain/crypto-lib": "^2.1.0"
+  }
+}

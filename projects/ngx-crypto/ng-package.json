@@ -1,0 +1,11 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ngx-crypto",
+  "lib": {
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "@cambridge-blockchain/crypto-lib": "cryptoLib",
+      "@cambridge-blockchain/crypto-lib/dist/cbc-web-crypto": "cbcWebCrypto"
+    }
+  }
+}
