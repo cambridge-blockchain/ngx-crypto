@@ -1,0 +1,7 @@
+tsconfig.json
+tslint.json
+.prettierrc
+.github
+/test
+/*.tgz
+.editorconfig
