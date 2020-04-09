@@ -28,7 +28,7 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: ng build ngx-crypto --prod
+      - run: ./node_modules/.bin/ng build ngx-crypto --prod
       - run: cd dist/ngx-crypto && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
